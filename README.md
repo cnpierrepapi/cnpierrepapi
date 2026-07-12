@@ -13,7 +13,6 @@ Right now I am most interested in education and in AI tools that can run on a pe
 
 **Selected work**
 
-- **[Foil](https://github.com/cnpierrepapi/foil)** is a Socratic thinking coach. It will not give you the answer. It asks you a sharper question and scores how you think. It runs on your own device, so your questions stay private. Open source under AGPL. [Live demo](https://foil-tau.vercel.app).
 - **[doc-chat](https://github.com/cnpierrepapi/doc-chat)** lets you chat with your own documents and get answers with citations. [Live demo](https://doc-chat-beige-beta.vercel.app).
 - **[solana-error-doctor](https://github.com/cnpierrepapi/solana-error-doctor)** is a debugging tool for builders. You paste an error and get the root cause and the fix.
 
