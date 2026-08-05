@@ -1,22 +1,52 @@
-### I build software that proves its own claims.
+### I build AI systems that can be checked.
 
-I am a founder and engineer. I build products on live data: prediction markets, real-time games, and tools for builders. I like systems where the user can check the numbers instead of trusting the pitch.
+I work on products where the interesting problem is trust: can a user verify what the system
+just told them? That question shows up in ML governance, in retrieval, and in provenance, and
+it is most of what I have built.
 
-**What I believe**
-
-- Build on real data. Live markets, live matches, real documents. No mock demos.
-- Prove it. A claim should settle on-chain or link to a source.
-- Build for one user first. A good product is useful from user number one.
-- Keep it simple. Hold a high bar on quality.
+I decide what gets built and why, I ship it, and I run it against real users and real data.
 
 **Selected work**
 
-- **[lagisalpha](https://github.com/cnpierrepapi/lagisalpha)** finds the lead-lag edge in prediction markets. A market trades behind a vig-free fair price, and the cheap side is underpriced until it converges. Paper-trade it with `npx lagisalpha` or on Telegram. [Live](https://lagisalpha.vercel.app).
-- **[spikelines](https://github.com/cnpierrepapi/spikelines)** is a real-time micro-prediction game on live World Cup data. You call what happens next, and results are verified on Solana. [Live](https://spikelines.vercel.app).
-- **[solana-error-doctor](https://github.com/cnpierrepapi/solana-error-doctor)** is a diagnostic skill for AI coding agents. Paste a Solana error, get the root cause and the verified fix.
+**[Ariadne](https://github.com/cnpierrepapi/ariadne)** answers a question production ML teams
+ask constantly and answer slowly: when a model starts behaving badly, what upstream change
+caused it? It walks data lineage to the root cause instead of guessing, and it carries policy
+packs so one warehouse can be checked against several regulatory regimes at once.
+
+The result I care about most is a negative one. Testing whether protected attributes could be
+reconstructed from a "clean" dataset, sex came back at 0.813 AUC and race at 0.73, while
+geographic region carried almost nothing. The lesson is that removing a column is not the same
+as removing the information, and the useful product is the one that measures the gap rather
+than asserting compliance. [Live](https://ariadne-five.vercel.app).
+
+**[Warmleads](https://warmleads.app)** scores local businesses on how badly they need what an
+agency sells, so outreach starts from evidence instead of a list. It runs about 10,675 scored
+businesses with live billing through Stripe and Paystack. Building it taught me more about
+pricing and unit economics than about code: the first pricing model needed roughly 1,400
+subscribers to work, and the fix was the customer, not the feature set.
+
+**[Doc-chat](https://github.com/cnpierrepapi/doc-chat)** is retrieval over your own documents
+with inline citations, so an answer links back to the passage it came from. Voyage embeddings,
+pgvector, streaming responses. Built because an AI answer you cannot check is worth very little
+in any setting where being wrong is expensive. [Live](https://doc-chat-beige-beta.vercel.app).
+
+**[Hallmark](https://github.com/cnpierrepapi/hallmark)** stamps generated media with a record of
+how it was made, and keeps that record attached through conversion so it survives the edit.
+[Live](https://hallmark-rust.vercel.app).
+
+**[Solana Error Doctor](https://github.com/cnpierrepapi/solana-error-doctor)** turns an opaque
+chain error into a root cause and a verified fix. Shipped as a public skill for coding agents.
 
 **How I work**
 
-I code with AI and I am not shy about it. Claude Opus/Fable writes most of my code. I set the direction, review the output, and test everything on live deployments before I call it done.
+Build on real data. Live markets, real documents, production lineage. A demo that only works on
+fixture data has not been tested.
 
-You can reach me at cnpierrepapi@gmail.com.
+Prove it. A claim should link to a source or settle on chain. I would rather ship a measured
+result that is inconvenient than a confident one I cannot support.
+
+Build for one user first. If it is not useful to a single named person, scale will not save it.
+
+Test on the deployed thing. Localhost agrees with you. Production does not.
+
+Reach me at cnpierrepapi@gmail.com.
