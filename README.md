@@ -118,6 +118,13 @@ One thread, running since July 2026, on how [DataHub](https://github.com/datahub
 - [datahub#18684](https://github.com/datahub-project/datahub/pull/18684) · open · Two self-hosted MCP troubleshooting entries, both from problems I hit myself.
 - [datahub-skills#66](https://github.com/datahub-project/datahub-skills/pull/66) · open · A skill that traces which models and dashboards a dataset change is about to break.
 
+Building MIGRAGENT on [Google's Agent Development Kit](https://github.com/google/adk-python) turned up four things worth sending back. The first one is mine. The other three are threads somebody else opened where I could add the measurement or the workaround that was missing. All four came out of shipping on it, not from reading the tracker.
+
+- [adk-python#6880](https://github.com/google/adk-python/issues/6880) · open · A custom model class gets handed one config object holding 35 fields that belong in three different places in the request, and nothing says which is which. Put the tools in the wrong half and the call still returns 200, so your agent silently has no tools and answers from memory. Filed with a repro that runs offline.
+- [adk-python#2425](https://github.com/google/adk-python/issues/2425) · open · A design for cancelling a running agent. The stopping machinery already exists and is load bearing, it just cannot be reached from outside the run. Offered to write it.
+- [adk-python#2792](https://github.com/google/adk-python/issues/2792) · open · Stopping an agent early prints a stack trace for something you chose to do, plus the workaround that fixes it.
+- [python-genai#782](https://github.com/googleapis/python-genai/issues/782) · open · Thinking spends two to three thousand tokens before writing a character, so any output limit under about 4k is a zero budget dressed as a generous one. Every call failed the same way across 400 pages until we found it.
+
 ---
 
 ## 🧭 How I work
