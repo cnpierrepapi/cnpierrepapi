@@ -28,6 +28,8 @@
 
 ## 🤖 AI & data
 
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -57,6 +59,9 @@
 ## ☁️ Cloud, payments & tooling
 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
@@ -90,12 +95,14 @@ Measured across my repos with the GitHub languages API, not estimated.
 - Scores local businesses on how badly they need what an agency sells, so outreach starts from evidence instead of a list. **10,675 scored businesses**, live billing in two currencies.
 - Taught me more about pricing than about code: the first pricing model needed roughly **1,400 subscribers** to work. The fix was the customer, not the feature set.
 
-**📄 [Doc-chat](https://github.com/cnpierrepapi/doc-chat)** | *Next.js, Voyage embeddings, pgvector, streaming* | 2026 | **[Live](https://doc-chat-beige-beta.vercel.app)**
-- Retrieval over your own documents with inline citations, so an answer links back to the passage it came from.
-- Built because an AI answer you cannot check is worth very little anywhere that being wrong is expensive.
+**📄 [Dossier](https://github.com/cnpierrepapi/dossier)** | *Next.js, TypeScript, Voyage embeddings, pgvector, NDJSON streaming* | 2026 | **[Live](https://dossier.onenept.com)**
+- Answers you can check. Two halves that do the same job and differ only in who fetches the text. **Documents:** bring a PDF, pasted text or a URL, ask questions, every answer cites the passages it came from. **Companies:** name a company and a tool-using agent reads their site and the web, then returns a brief with talking points.
+- Every endpoint streams, so you watch each search and each page open as it happens instead of staring at a spinner. Built because an AI answer you cannot check is worth very little anywhere that being wrong is expensive.
 
-**🔏 [Hallmark](https://github.com/cnpierrepapi/hallmark)** | *TypeScript, Next.js, media provenance* | 2026 | **[Live](https://hallmark-rust.vercel.app)**
-- Stamps generated media with a record of how it was made, and keeps that record attached through conversion so it survives the edit.
+**🛂 MIGRAGENT** | *Gemini 3.5, Google ADK, Cloud Run, Firestore, Python* | Aug 2026 | **[Live](https://migragent.onenept.com)**
+- You are moving country or getting licensed to work in one. Fill one short form, upload the documents you already have, and an agent reads the official government sources and hands back a guide you can save as a PDF. No chat window.
+- **Over 2,000 live requirements across 16 lanes**, and every single one carries the source link plus the date it was read. No source, no claim: it goes to an open questions section instead.
+- A scheduled round re-reads the sources every day, so when a rule moves the guide moves with it. Changes are reported from the government's own published history, with their dates, never as a forecast.
 
 **🩺 [Solana Error Doctor](https://github.com/cnpierrepapi/solana-error-doctor)** | *TypeScript, Solana* | 2026
 - Turns an opaque chain error into a root cause and a verified fix. Shipped as a public skill for coding agents.
