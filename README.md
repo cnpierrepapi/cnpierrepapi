@@ -99,7 +99,7 @@ Measured across my repos with the GitHub languages API, not estimated.
 - Answers you can check. Two halves that do the same job and differ only in who fetches the text. **Documents:** bring a PDF, pasted text or a URL, ask questions, every answer cites the passages it came from. **Companies:** name a company and a tool-using agent reads their site and the web, then returns a brief with talking points.
 - Every endpoint streams, so you watch each search and each page open as it happens instead of staring at a spinner. Built because an AI answer you cannot check is worth very little anywhere that being wrong is expensive.
 
-**🛂 MIGRAGENT** | *Gemini 3.5, Google ADK, Cloud Run, Firestore, Python* | Aug 2026 | **[Live](https://migragent.onenept.com)**
+**🛂 [MIGRAGENT](https://github.com/cnpierrepapi/migragent)** | *Gemini 3.5, Google ADK, Cloud Run, Firestore, Python* | Aug 2026 | **[Live](https://migragent.onenept.com)**
 - You are moving country or getting licensed to work in one. Fill one short form, upload the documents you already have, and an agent reads the official government sources and hands back a guide you can save as a PDF. No chat window.
 - **Over 2,000 live requirements across 16 lanes**, and every single one carries the source link plus the date it was read. No source, no claim: it goes to an open questions section instead.
 - A scheduled round re-reads the sources every day, so when a rule moves the guide moves with it. Changes are reported from the government's own published history, with their dates, never as a forecast.
