@@ -1,7 +1,9 @@
 # Hi, I'm Chukwudumaga Nnawuogo 👋
 
-- 🏗️ Founder & Director, **Onenept Studios** (Delaware C-corp). I build AI systems that can be checked.
-- 🔍 Trust is the interesting problem: can a user verify what the system just told them? That shows up in ML governance, retrieval and provenance, and it is most of what I have shipped.
+- 🏗️ Founder & Director, **Onenept Studios** (Delaware C-corp). I build software that shows its work.
+- 🔍 Right now that means two things. AI agents that tell you where every answer came from, like [MIGRAGENT](https://github.com/cnpierrepapi/migragent) and [ASHEARD](https://github.com/cnpierrepapi/asheard). And on-chain tools that read the chain themselves instead of trusting someone's dashboard, like [Hashcats live](https://github.com/cnpierrepapi/hashcats-live) and [leaf-alert](https://github.com/cnpierrepapi/leaf-alert).
+- 🧩 I also build for clients. A puzzle-gated NFT allowlist and an online shop are live this month.
+- 🤝 When something I build on turns out to be wrong, I send the fix back upstream. Three of those are merged so far.
 - 🎓 MSc IT Management with Data Analytics, GBS Malta (in progress) · MSc Innovation, Strategy & Entrepreneurship, Grenoble École de Management (Distinction) · BEng Electrical & Electronics Engineering, Covenant University
 - 🚀 Open to remote and contract work: AI Product Manager, Customer Centric Engineer, Forward Deployed Engineer
 
