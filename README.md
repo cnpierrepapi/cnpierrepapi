@@ -2,7 +2,7 @@
 
 - 🏗️ Founder & Director, **Onenept Studios** (Delaware C-corp). I build software that shows its work.
 - 🔍 Mostly that means agents. They take public data and turn it into actual business: leads, partnerships, someone getting an email they'll answer. Then there's the boring half, the checks that prove the agent did what it says it did. [SYZYGY](https://github.com/cnpierrepapi/syzygybot) is the one I'm building right now. [MIGRAGENT](https://github.com/cnpierrepapi/migragent) and [ASHEARD](https://github.com/cnpierrepapi/asheard) are live.
-- 🐈 Neko On Arc is mine too. 3,333 cats on Robinhood Chain, and each one has its own wallet that trades memecoins by itself. Nobody holds the key, me included. It minted on OpenSea on 14 Oct, more at [nekoonarc.com](https://nekoonarc.com). I build for clients as well.
+- 🐈 Neko On Arc is mine too. 377 cats on Robinhood Chain. Each one has its own wallet and trades memecoins by itself, and nobody holds the key, me included. Minted on OpenSea on 14 Oct, more at [nekoonarc.com](https://nekoonarc.com). I build for clients as well.
 - 🤝 When something I build on turns out to be wrong, I send the fix back upstream. Three of those are merged so far.
 - 🎓 MSc IT Management with Data Analytics, GBS Malta (in progress) · MSc Innovation, Strategy & Entrepreneurship, Grenoble École de Management (Distinction) · BEng Electrical & Electronics Engineering, Covenant University
 - 🚀 Open to remote and contract work: AI Product Manager, Customer Centric Engineer, Forward Deployed Engineer
@@ -168,6 +168,7 @@ Building MIGRAGENT on [Google's Agent Development Kit](https://github.com/google
 
 ### Smaller ones
 
+- [datahub#18686](https://github.com/datahub-project/datahub/issues/18686) · open · The LangChain and ADK hooks in `datahub-agent-context` can't be imported on a clean install. The package pins a version of `acryl-datahub` that doesn't have the module it imports.
 - [effectstream#895](https://github.com/effectstream/effectstream/issues/895) · open · The Midnight cross-chain template doesn't build from a clean clone. Five separate reasons, each with the fix that worked.
 - [phantom/blocklist#1819](https://github.com/phantom/blocklist/pull/1819) · open · A whitelist request for a domain Phantom was flagging.
 
