@@ -114,17 +114,18 @@ Measured across my own repos with the GitHub languages API, not estimated. Last 
 - The finding that made it worth building: a voicemail box that "completed the task" and answered nothing scored **0.90** confidence. A call that really did get the right answer scored **0.92**. Same label. There is no threshold between them.
 - On npm as [`asheard`](https://www.npmjs.com/package/asheard). The review console and a skill built on it are [merged into CALL-E's own repo](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/337).
 
-**🛂 [MIGRAGENT](https://github.com/cnpierrepapi/migragent)** | *Gemini 3.5, Google ADK, Cloud Run, Firestore, Python* | Aug 2026 | **[Live](https://migragent.onenept.com)**
-- You are moving country or getting licensed to work in one. Fill one short form, upload the documents you already have, and an agent reads the official government sources and hands back a guide you can save as a PDF. No chat window.
-- **Over 2,000 live requirements across 16 lanes**, and every single one carries the source link plus the date it was read. No source, no claim: it goes to an open questions section instead.
-- A scheduled round re-reads the sources every day, so when a rule moves the guide moves with it.
+**🛂 [MIGRAGENT](https://github.com/cnpierrepapi/migragent)** | *Gemini, Google ADK, Cloud Run, Firestore, Python* | Aug 2026, rebuilt Oct | **[Live](https://migragent.onenept.com)**
+- An AI reporter on the immigration beat. Every morning it reads the official immigration pages of 13 countries, works out what changed, and files it to the wire. Think of a newsroom where the only reporter is a crawler that can't lie, because every claim has to be a sentence lifted from the government's own page.
+- **147 rule changes caught, 39 stories filed, 104 guides**, out of 1,355 official pages. Each story ends with a report: how many claims were found word for word on the page, and how many got cut.
+- It started as an agent that built you a personal visa guide. Too agent shaped for what people needed, so in October I cut the case product and kept the reading engine. Study-abroad agents get a morning alert when a rule moves in a country they sell.
 
 **📈 [Warmleads](https://warmleads.app)** | *Next.js, TypeScript, Supabase, Prisma, Stripe, Paystack* | 2026 | **[Live](https://warmleads.app)**
 - Scores local businesses on how badly they need what an agency sells, so outreach starts from evidence instead of a list. **10,675 scored businesses**, live billing in two currencies.
 - Taught me more about pricing than about code: the first pricing model needed roughly **1,400 subscribers** to work. The fix was the customer, not the feature set.
 
 **🛣️ Hopium Highway** | *Three.js, TypeScript* | Oct 2026 | **[Live](https://hopiumhighway.com)**
-- A browser game where you walk a road through crypto Twitter. Shill crowds surround you, a rug dev picks a fight, the Spaces circle won't let you leave. You slap or hail your way through. No wallet, fake money, plays straight from an X link.
+- A crypto Twitter game in the browser, no wallet, fake money, plays straight from an X link. Right now you walk the road: shill crowds, a rug dev who wants a fight, a Spaces circle that won't let you leave.
+- Next it turns into a party bus. You drive it through your own city and work the door, and who you let on decides what happens to your wallet.
 
 **🩺 [Solana Error Doctor](https://github.com/cnpierrepapi/solana-error-doctor)** | *TypeScript, Solana* | 2026
 - Turns an opaque chain error into a root cause and a verified fix. Shipped as a public skill for coding agents.
