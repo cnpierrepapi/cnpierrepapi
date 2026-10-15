@@ -1,8 +1,8 @@
 # Hi, I'm Chukwudumaga Nnawuogo 👋
 
 - 🏗️ Founder & Director, **Onenept Studios** (Delaware C-corp). I build software that shows its work.
-- 🔍 Right now that means two things. AI agents that tell you where every answer came from, like [MIGRAGENT](https://github.com/cnpierrepapi/migragent) and [ASHEARD](https://github.com/cnpierrepapi/asheard). And on-chain tools that read the chain themselves instead of trusting someone's dashboard, like [Hashcats live](https://github.com/cnpierrepapi/hashcats-live) and [leaf-alert](https://github.com/cnpierrepapi/leaf-alert).
-- 🧩 Neko On Arc is mine. It's an NFT project on Circle's Arc chain, and the allowlist is a jigsaw hunt you can play now at [nekoonarc.com](https://nekoonarc.com). I build for clients too. An online shop for one of them went live this month.
+- 🔍 Mostly that means agents. They take public data and turn it into actual business: leads, partnerships, someone getting an email they'll answer. Then there's the boring half, the checks that prove the agent did what it says it did. [SYZYGY](https://github.com/cnpierrepapi/syzygybot) is the one I'm building right now. [MIGRAGENT](https://github.com/cnpierrepapi/migragent) and [ASHEARD](https://github.com/cnpierrepapi/asheard) are live.
+- 🐈 Neko On Arc is mine too. 3,333 cats on Robinhood Chain, and each one has its own wallet that trades memecoins by itself. Nobody holds the key, me included. It minted on OpenSea on 14 Oct, more at [nekoonarc.com](https://nekoonarc.com). I build for clients as well.
 - 🤝 When something I build on turns out to be wrong, I send the fix back upstream. Three of those are merged so far.
 - 🎓 MSc IT Management with Data Analytics, GBS Malta (in progress) · MSc Innovation, Strategy & Entrepreneurship, Grenoble École de Management (Distinction) · BEng Electrical & Electronics Engineering, Covenant University
 - 🚀 Open to remote and contract work: AI Product Manager, Customer Centric Engineer, Forward Deployed Engineer
@@ -49,8 +49,6 @@ Every line links to the thing itself.
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![DataHub](https://img.shields.io/badge/DataHub-1890FF?style=for-the-badge&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Voyage AI](https://img.shields.io/badge/Voyage_AI-6A5ACD?style=for-the-badge&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ---
@@ -63,9 +61,11 @@ Every line links to the thing itself.
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black)
 ![Redis](https://img.shields.io/badge/Upstash_Redis-00E9A3?style=for-the-badge&logo=upstash&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
@@ -82,6 +82,7 @@ Every line links to the thing itself.
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Paystack](https://img.shields.io/badge/Paystack-00C3F7?style=for-the-badge&logo=paystack&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
@@ -90,18 +91,23 @@ Every line links to the thing itself.
 
 ## 💻 Most used languages
 
-Measured across my own repos with the GitHub languages API, not estimated. Last counted 14 Sep 2026.
+Measured across my own repos with the GitHub languages API, not estimated. Last counted 15 Oct 2026.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-48%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 48 percent"/>
-  <img src="https://img.shields.io/badge/TypeScript-45%25-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 45 percent"/>
-  <img src="https://img.shields.io/badge/JavaScript-3%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript 3 percent"/>
-  <img src="https://img.shields.io/badge/CSS-2%25-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS 2 percent"/>
+  <img src="https://img.shields.io/badge/TypeScript-55%25-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 55 percent"/>
+  <img src="https://img.shields.io/badge/Python-34%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 34 percent"/>
+  <img src="https://img.shields.io/badge/JavaScript-5%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript 5 percent"/>
+  <img src="https://img.shields.io/badge/HTML%2FCSS-3%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS 3 percent"/>
 </p>
 
 ---
 
 ## 🚀 Projects
+
+**🪐 [SYZYGY](https://github.com/cnpierrepapi/syzygybot)** | *Next.js, TypeScript, Qloo, Gemini on Vertex, Neon* | Oct 2026 | **[Live](https://syzygybot.vercel.app)**
+- A sales team made of agents, and nobody on it is human. It reads Qloo's taste data looking for two entertainment names whose audiences overlap in a way nobody has spotted yet. A studio and a drink brand, say.
+- When a pair clears the bar it writes a public thesis page with the numbers. Then it does the part a person usually does: picks the side that would pay for the insight, works out who decides there, writes to them, follows up, reads the replies.
+- Every action shows up on the SDR floor, a live log you can click into to see what the agent saw and why it moved. Built for the [Qloo hackathon](https://qloo.devpost.com/), which closes 30 Oct. Still building.
 
 **📞 [ASHEARD](https://github.com/cnpierrepapi/asheard)** | *TypeScript, Next.js, Upstash Redis* | Sep 2026 | **[Live](https://asheard.vercel.app)**
 - CALL-E tells you how a phone call ended in three different places, and the three disagree. ASHEARD reads all of them and says which field said what. When no field says anything, it says that too, instead of guessing.
@@ -117,9 +123,8 @@ Measured across my own repos with the GitHub languages API, not estimated. Last 
 - Scores local businesses on how badly they need what an agency sells, so outreach starts from evidence instead of a list. **10,675 scored businesses**, live billing in two currencies.
 - Taught me more about pricing than about code: the first pricing model needed roughly **1,400 subscribers** to work. The fix was the customer, not the feature set.
 
-**📄 [Dossier](https://github.com/cnpierrepapi/dossier)** | *Next.js, TypeScript, Voyage embeddings, pgvector, NDJSON streaming* | 2026 | **[Live](https://dossier.onenept.com)**
-- Answers you can check. Bring a PDF, pasted text or a URL and every answer cites the passages it came from. Or name a company and a tool-using agent reads their site and the web, then hands back a brief.
-- Everything streams, so you watch each search and each page open as it happens instead of staring at a spinner.
+**🛣️ Hopium Highway** | *Three.js, TypeScript* | Oct 2026 | **[Live](https://hopiumhighway.com)**
+- A browser game where you walk a road through crypto Twitter. Shill crowds surround you, a rug dev picks a fight, the Spaces circle won't let you leave. You slap or hail your way through. No wallet, fake money, plays straight from an X link.
 
 **🩺 [Solana Error Doctor](https://github.com/cnpierrepapi/solana-error-doctor)** | *TypeScript, Solana* | 2026
 - Turns an opaque chain error into a root cause and a verified fix. Shipped as a public skill for coding agents.
@@ -146,6 +151,8 @@ I built ASHEARD on [CALL-E](https://github.com/CALLE-AI)'s phone-call API in Sep
 
 - [awesome-phone-call-agents#337](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/337) · **merged 11 Sep 2026** · A skill for reading what actually happened to a call, plus a console that shows the answer next to the field it came from. Four rounds of review before it went in, most of it about security, and the first round found a real hole in my demo. Fixed properly, not patched.
 - Fourteen issues across their docs, integrations, both server SDKs, the n8n node and the Dify plugin. Eight are fixed and closed. Two more got moved into their main repo, then closed in October as superseded by their V2 API. Not a fix for the old one, the maintainer was clear about that, but V2 doesn't have the problem. The one I'm happiest about is [calle-docs#39](https://github.com/CALLE-AI/calle-docs/issues/39): the first example in their authentication guide returned 405 for a good key and a bad key alike, so it couldn't do the one job it was there for.
+- [server-sdk-python#49](https://github.com/CALLE-AI/server-sdk-python/pull/49) · open · Pass zero as the polling interval when waiting on a call and it hit the API nonstop until timeout. The goals side already checked for that. Now both do.
+- [n8n-nodes-calle#5](https://github.com/CALLE-AI/n8n-nodes-calle/pull/5) · open · The phone-number masking showed short numbers in full, which is the one case masking exists for.
 - [server-sdk-typescript#17](https://github.com/CALLE-AI/server-sdk-typescript/issues/17) · closed · Two wait functions in the same package with opposite ideas of when a call is finished. One of them sometimes handed back a call with no result on a call that had one. SDK 1.0 fixed it, so I closed it.
 - [awesome-phone-call-agents#196](https://github.com/CALLE-AI/awesome-phone-call-agents/issues/196) · open, p1 · Someone else's timestamp bug. I sent the validation they asked for, including the part that goes against the reporter's own theory.
 
@@ -162,7 +169,6 @@ Building MIGRAGENT on [Google's Agent Development Kit](https://github.com/google
 ### Smaller ones
 
 - [effectstream#895](https://github.com/effectstream/effectstream/issues/895) · open · The Midnight cross-chain template doesn't build from a clean clone. Five separate reasons, each with the fix that worked.
-- [solana-ai-kit#19](https://github.com/solanabr/solana-ai-kit/pull/19) · open · Adds Solana Error Doctor to the registry.
 - [phantom/blocklist#1819](https://github.com/phantom/blocklist/pull/1819) · open · A whitelist request for a domain Phantom was flagging.
 
 ---
