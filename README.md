@@ -1,7 +1,7 @@
 # Hi, I'm Chukwudumaga Nnawuogo 👋
 
 - 🏗️ Founder & Director, **Onenept Studios** (Delaware C-corp). I build software that shows its work.
-- 🔍 Mostly that means agents. They take public data and turn it into actual business: leads, partnerships, someone getting an email they'll answer. Then there's the boring half, the checks that prove the agent did what it says it did. [SYZYGY](https://github.com/cnpierrepapi/syzygybot) is the one I'm building right now. [MIGRAGENT](https://github.com/cnpierrepapi/migragent) and [ASHEARD](https://github.com/cnpierrepapi/asheard) are live.
+- 🔍 Mostly that means agents. They take public data and turn it into actual business: leads, partnerships, someone getting an email they'll answer. Then there's the boring half, the checks that prove the agent did what it says it did. [SYZYGY](https://github.com/cnpierrepapi/syzygybot) is the one I'm building right now, and it's already live at [syzygybot.com](https://syzygybot.com). [ASHEARD](https://github.com/cnpierrepapi/asheard) is live too.
 - 🐈 Neko On Arc is mine too. 377 cats on Robinhood Chain. Each one has its own wallet and trades memecoins by itself, and nobody holds the key, me included. Minted on OpenSea on 14 Oct, more at [nekoonarc.com](https://nekoonarc.com). I build for clients as well.
 - 🤝 When something I build on turns out to be wrong, I send the fix back upstream. Three of those are merged so far.
 - 🎓 MSc IT Management with Data Analytics, GBS Malta (in progress) · MSc Innovation, Strategy & Entrepreneurship, Grenoble École de Management (Distinction) · BEng Electrical & Electronics Engineering, Covenant University
@@ -91,44 +91,46 @@ Every line links to the thing itself.
 
 ## 💻 Most used languages
 
-Measured across my own repos with the GitHub languages API, not estimated. Last counted 15 Oct 2026.
+Measured across my own repos with the GitHub languages API, not estimated. Last counted 20 Oct 2026.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-55%25-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 55 percent"/>
-  <img src="https://img.shields.io/badge/Python-34%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 34 percent"/>
-  <img src="https://img.shields.io/badge/JavaScript-5%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript 5 percent"/>
-  <img src="https://img.shields.io/badge/HTML%2FCSS-3%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS 3 percent"/>
+  <img src="https://img.shields.io/badge/TypeScript-56%25-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 56 percent"/>
+  <img src="https://img.shields.io/badge/Python-37%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 37 percent"/>
+  <img src="https://img.shields.io/badge/JavaScript-2%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript 2 percent"/>
+  <img src="https://img.shields.io/badge/HTML%2FCSS-2%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS 2 percent"/>
 </p>
 
 ---
 
 ## 🚀 Projects
 
-**🪐 [SYZYGY](https://github.com/cnpierrepapi/syzygybot)** | *Next.js, TypeScript, Qloo, Gemini on Vertex, Neon* | Oct 2026 | **[Live](https://syzygybot.vercel.app)**
-- A sales team made of agents, and nobody on it is human. It reads Qloo's taste data looking for two entertainment names whose audiences overlap in a way nobody has spotted yet. A studio and a drink brand, say.
-- When a pair clears the bar it writes a public thesis page with the numbers. Then it does the part a person usually does: picks the side that would pay for the insight, works out who decides there, writes to them, follows up, reads the replies.
-- Every action shows up on the SDR floor, a live log you can click into to see what the agent saw and why it moved. Built for the [Qloo hackathon](https://qloo.devpost.com/), which closes 30 Oct. Still building.
+**🪐 [SYZYGY](https://github.com/cnpierrepapi/syzygybot)** | *Next.js, TypeScript, Qloo, Gemini on Vertex, Neon* | Oct 2026 | **[Live](https://syzygybot.com)**
+- A whole commercial team for entertainment, and every one of them is an agent. Most taste data ends up in a slide deck. SYZYGY puts it on payroll.
+- 17 agents read Qloo's audience data looking for a brand, artist or show whose fans overlap with someone else's in a way that sells. Then they do what a sales team would: write the case, find the buyer, draft the email, follow up, read the reply. A person only steps in once someone says yes.
+- Seven desks (sales, touring, sponsorship, talent, venues, market watch, podcasts), and every message passes a clearance check before it goes out. It watches 762 news sources and 1,619 venues, and has 133 buyers verified so far.
+- The floor is public. Each pair the agents are working is a star on the homepage, and you can click into any of them to see the numbers and why it moved. Built for the [Qloo hackathon](https://qloo.devpost.com/), which closes 30 Oct.
+
+**🏷️ [LOWBALL](https://github.com/cnpierrepapi/lowball)** | *TypeScript, Anchor, Solana, x402, Gemini* | Oct 2026 | building
+- A shop where the shopkeeper is an AI and every price is up for haggling. Talk it down, then pay what you agreed in USDC on Solana through x402. Or pay in friends, as long as they turn into real paid orders.
+- The model does the talking but it never sets the price. A plain engine decides, so you can't sweet-talk or jailbreak your way to a free anything. Every deal lands on chain as a receipt.
+- For the [Encode Club Solana hackathon](https://www.encodeclub.com/programmes/solana-hackathon-2026). Final submission 8 Nov.
 
 **📞 [ASHEARD](https://github.com/cnpierrepapi/asheard)** | *TypeScript, Next.js, Upstash Redis* | Sep 2026 | **[Live](https://asheard.vercel.app)**
 - CALL-E tells you how a phone call ended in three different places, and the three disagree. ASHEARD reads all of them and says which field said what. When no field says anything, it says that too, instead of guessing.
 - The finding that made it worth building: a voicemail box that "completed the task" and answered nothing scored **0.90** confidence. A call that really did get the right answer scored **0.92**. Same label. There is no threshold between them.
 - On npm as [`asheard`](https://www.npmjs.com/package/asheard). The review console and a skill built on it are [merged into CALL-E's own repo](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/337).
 
-**🛂 [MIGRAGENT](https://github.com/cnpierrepapi/migragent)** | *Gemini, Google ADK, Cloud Run, Firestore, Python* | Aug 2026, rebuilt Oct | **[Live](https://migragent.onenept.com)**
-- An AI reporter on the immigration beat. Every morning it reads the official immigration pages of 13 countries, works out what changed, and files it to the wire. Think of a newsroom where the only reporter is a crawler that can't lie, because every claim has to be a sentence lifted from the government's own page.
-- **147 rule changes caught, 39 stories filed, 104 guides**, out of 1,355 official pages. Each story ends with a report: how many claims were found word for word on the page, and how many got cut.
-- It started as an agent that built you a personal visa guide. Too agent shaped for what people needed, so in October I cut the case product and kept the reading engine. Study-abroad agents get a morning alert when a rule moves in a country they sell.
-
 **📈 [Warmleads](https://warmleads.app)** | *Next.js, TypeScript, Supabase, Prisma, Stripe, Paystack* | 2026 | **[Live](https://warmleads.app)**
 - Scores local businesses on how badly they need what an agency sells, so outreach starts from evidence instead of a list. **10,675 scored businesses**, live billing in two currencies.
 - Taught me more about pricing than about code: the first pricing model needed roughly **1,400 subscribers** to work. The fix was the customer, not the feature set.
 
-**🛣️ Hopium Highway** | *Three.js, TypeScript* | Oct 2026 | **[Live](https://hopiumhighway.com)**
-- A crypto Twitter game in the browser, no wallet, fake money, plays straight from an X link. Right now you walk the road: shill crowds, a rug dev who wants a fight, a Spaces circle that won't let you leave.
-- Next it turns into a party bus. You drive it through your own city and work the door, and who you let on decides what happens to your wallet.
+**🛂 [MIGRAGENT](https://github.com/cnpierrepapi/migragent)** | *Gemini, Google ADK, Cloud Run, Firestore, Python* | Aug to Oct 2026 | archived
+- An AI reporter on the immigration beat. Every morning it read the official immigration pages of 13 countries, worked out what changed, and filed it to the wire. Every claim had to be a sentence lifted from the government's own page, so it had nothing to make up.
+- By mid-October: **147 rule changes caught, 39 stories filed, 104 guides**, out of 1,355 official pages. Each story ended with a count of how many claims were found word for word and how many got cut.
+- Archived on 19 Oct with the model switched off. The whole thing is still in the repo.
 
-**🩺 [Solana Error Doctor](https://github.com/cnpierrepapi/solana-error-doctor)** | *TypeScript, Solana* | 2026
-- Turns an opaque chain error into a root cause and a verified fix. Shipped as a public skill for coding agents.
+**🩺 [Solana Error Doctor](https://github.com/cnpierrepapi/solana-error-doctor)** | *TypeScript, Solana* | Jun 2026 | archived
+- Paste an opaque Solana error, get the root cause and a verified fix. A skill for coding agents, built for the Solana AI Kit. The kit's maintainers passed on it because the kit already covers that ground, so it's archived.
 
 ---
 
