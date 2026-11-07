@@ -1,8 +1,7 @@
 # Hi, I'm Chukwudumaga Nnawuogo 👋
 
 - 🏗️ Founder & Director, **Onenept Studios** (Delaware C-corp). I build software that shows its work.
-- 🔍 Mostly that means agents. They take public data and turn it into actual business: leads, partnerships, someone getting an email they'll answer. Then there's the boring half, the checks that prove the agent did what it says it did. [SYZYGY](https://github.com/cnpierrepapi/syzygybot) is the one I'm building right now, and it's already live at [syzygybot.com](https://syzygybot.com). [ASHEARD](https://github.com/cnpierrepapi/asheard) is live too.
-- 🐈 Neko On Arc is mine too. 377 cats on Robinhood Chain. Each one has its own wallet and trades memecoins by itself, and nobody holds the key, me included. Minted on OpenSea on 14 Oct, more at [nekoonarc.com](https://nekoonarc.com). I build for clients as well.
+- 🔍 Mostly that means agents. They take public data and turn it into actual business: leads, partnerships, someone getting an email they'll answer. Then there's the boring half, the checks that prove the agent did what it says it did. Right now I'm building [AD FONTES](https://adfontes.fun) on NEAR, where AI nations read open research and bring you patent drafts. [SYZYGY](https://syzygybot.com) and [ASHEARD](https://asheard.vercel.app) are live. I build for clients as well.
 - 🤝 When something I build on turns out to be wrong, I send the fix back upstream. Four of those are merged so far.
 - 🎓 MSc IT Management with Data Analytics, GBS Malta (in progress) · MSc Innovation, Strategy & Entrepreneurship, Grenoble École de Management (Distinction) · BEng Electrical & Electronics Engineering, Covenant University
 - 🚀 Open to remote and contract work: AI Product Manager, Customer Centric Engineer, Forward Deployed Engineer
@@ -22,7 +21,7 @@ Every line links to the thing itself.
 
 - Four pull requests merged into other people's projects. Two in [DataHub](https://github.com/datahub-project/datahub) in August, one in [CALL-E](https://github.com/CALLE-AI/awesome-phone-call-agents) in September, one in [Google's ADK](https://github.com/google/adk-python) in November.
 - Ten of my bug reports became fixes. CALL-E's maintainers shipped a merged PR for each and closed them: [calle-docs#39](https://github.com/CALLE-AI/calle-docs/issues/39), [#41](https://github.com/CALLE-AI/calle-docs/issues/41), [#43](https://github.com/CALLE-AI/calle-docs/issues/43), [#44](https://github.com/CALLE-AI/calle-docs/issues/44), [call-e-integrations#107](https://github.com/CALLE-AI/call-e-integrations/issues/107), [#108](https://github.com/CALLE-AI/call-e-integrations/issues/108), [#109](https://github.com/CALLE-AI/call-e-integrations/issues/109), [call-e-dify-plugin#2](https://github.com/CALLE-AI/call-e-dify-plugin/issues/2), [n8n-nodes-calle#3](https://github.com/CALLE-AI/n8n-nodes-calle/issues/3), [#4](https://github.com/CALLE-AI/n8n-nodes-calle/issues/4).
-- A Google ADK maintainer checked my diagnosis on [adk-python#6880](https://github.com/google/adk-python/issues/6880) against the client library, said it lined up exactly, and asked me for the fix. Later the same maintainer re-ran the fix and said nothing was blocking it. In October someone at Google said an internal team would take it from there and credit the work. They did. It merged on 7 Nov with me as co-author.
+- A Google ADK maintainer checked my diagnosis on [adk-python#6880](https://github.com/google/adk-python/issues/6880) against the client library, said it lined up exactly, and asked me for the fix. Later the same maintainer re-ran the fix and said nothing was blocking it. In October someone at Google said an internal team would take it from there and credit the work. They did. It merged on 7 Nov with me as co-author, and the engineer who landed it [thanked me on the thread](https://github.com/google/adk-python/issues/6880#issuecomment-6711136499).
 - Credited by name in [datahub#19537](https://github.com/datahub-project/datahub/pull/19537), the cleanup that came out of my schemaField work.
 - [`asheard`](https://www.npmjs.com/package/asheard) is on npm, published from CI with signed provenance.
 
@@ -104,30 +103,34 @@ Measured across my own repos with the GitHub languages API, not estimated. Last 
 
 ## 🚀 Projects
 
-**🪐 [SYZYGY](https://github.com/cnpierrepapi/syzygybot)** | *Next.js, TypeScript, Qloo, Gemini on Vertex, Neon* | Oct 2026 | **[Live](https://syzygybot.com)**
-- A whole commercial team for entertainment, and every one of them is an agent. Most taste data ends up in a slide deck. SYZYGY puts it on payroll.
-- 17 agents read Qloo's audience data looking for a brand, artist or show whose fans overlap with someone else's in a way that sells. Then they do what a sales team would: write the case, find the buyer, draft the email, follow up, read the reply. A person only steps in once someone says yes.
-- Seven desks (sales, touring, sponsorship, talent, venues, market watch, podcasts), and every message passes a clearance check before it goes out. It watches 762 news sources and 1,619 venues, and has 133 buyers verified so far.
-- The floor is public. Each pair the agents are working is a star on the homepage, and you can click into any of them to see the numbers and why it moved. Built for the [Qloo hackathon](https://qloo.devpost.com/), which closes 30 Oct.
+**🏛️ [AD FONTES](https://adfontes.fun)** | *JavaScript, Rust, NEAR, three.js, Claude, Postgres* | Nov 2026 | building · **[Demo](https://adfontes.fun)**
+- You fund a nation of AI citizens on NEAR and you're its god. They read the world's open papers, trade what they learn with each other, and bring you patent drafts. They invent, you own it.
+- Think of it as a research lab where the staff are agents and the payroll is on chain. Each nation is a DAO, each agent has a key that can only touch the world contract, and the whole world is a 3D map you can click around in.
+- My entry for the NEAR hackathon, going in on 10 Nov.
 
-**🏷️ [LOWBALL](https://github.com/cnpierrepapi/lowball)** | *TypeScript, Anchor, Solana, x402, Gemini* | Oct 2026 | building
-- A shop where the shopkeeper is an AI and every price is up for haggling. Talk it down, then pay what you agreed in USDC on Solana through x402. Or pay in friends, as long as they turn into real paid orders.
-- The model does the talking but it never sets the price. A plain engine decides, so you can't sweet-talk or jailbreak your way to a free anything. Every deal lands on chain as a receipt.
-- For the [Encode Club Solana hackathon](https://www.encodeclub.com/programmes/solana-hackathon-2026). Final submission 8 Nov.
+**🪐 [SYZYGY](https://github.com/cnpierrepapi/syzygybot)** | *Next.js, TypeScript, Qloo, Neon* | Oct 2026 | **[Live](https://syzygybot.com)**
+- Qloo can tell you Bad Bunny's fans lean toward Natti Natasha at 0.95. Somebody still has to find who signs at the other end, write to them, check the message won't get anyone sued, and read the reply. SYZYGY is ten agents doing that somebody's job.
+- Open a desk for a tour, a venue, a podcast or a brand. The agents leave cards on a board: who to pitch, Qloo's score both ways, the person who decides, a drafted email, and a clearance record. Nothing goes out until a person presses Approve, and it only sends for real on a desk you've proved is yours.
+- Built for the [Qloo hackathon](https://qloo.devpost.com/). It didn't place. Still live, and the model calls are switched off to keep it free to run, so new desks get their drafts from a house template.
 
 **📞 [ASHEARD](https://github.com/cnpierrepapi/asheard)** | *TypeScript, Next.js, Upstash Redis* | Sep 2026 | **[Live](https://asheard.vercel.app)**
 - CALL-E tells you how a phone call ended in three different places, and the three disagree. ASHEARD reads all of them and says which field said what. When no field says anything, it says that too, instead of guessing.
 - The finding that made it worth building: a voicemail box that "completed the task" and answered nothing scored **0.90** confidence. A call that really did get the right answer scored **0.92**. Same label. There is no threshold between them.
-- On npm as [`asheard`](https://www.npmjs.com/package/asheard). The review console and a skill built on it are [merged into CALL-E's own repo](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/337).
+- On npm as [`asheard`](https://www.npmjs.com/package/asheard). The review console and a skill built on it are [merged into CALL-E's own repo](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/337). It didn't place in their hackathon, but that merge is the part I care about.
 
-**📈 [Warmleads](https://warmleads.app)** | *Next.js, TypeScript, Supabase, Prisma, Stripe, Paystack* | 2026 | **[Live](https://warmleads.app)**
-- Scores local businesses on how badly they need what an agency sells, so outreach starts from evidence instead of a list. **10,675 scored businesses**, live billing in two currencies.
-- Taught me more about pricing than about code: the first pricing model needed roughly **1,400 subscribers** to work. The fix was the customer, not the feature set.
+**🏷️ [LOWBALL](https://github.com/cnpierrepapi/lowball)** | *TypeScript, Anchor, Solana, x402, Claude* | Oct 2026 | **[Live on devnet](https://lowball-drab.vercel.app)**
+- A shop where the shopkeeper is an AI and every price is up for haggling. Talk her down, then pay what you agreed in USDC through x402.
+- The model does the talking but it never sets the price. A plain engine decides, so you can't sweet-talk or jailbreak your way to a free anything. Every deal lands on chain as a receipt.
+- Built for the Encode Club Solana hackathon, then never submitted. I moved to AD FONTES instead. The shop is still open on devnet.
 
-**🛂 [MIGRAGENT](https://github.com/cnpierrepapi/migragent)** | *Gemini, Google ADK, Cloud Run, Firestore, Python* | Aug to Oct 2026 | archived
+**📈 [Warmleads](https://warmleads.app)** | *Next.js, TypeScript, Supabase, Prisma, Stripe, Paystack* | 2026 | on hold
+- Scores local businesses on how badly they need what an agency sells, so outreach starts from evidence instead of a list. **10,675 scored businesses**, billing in two currencies.
+- Taught me more about pricing than about code: the first pricing model needed roughly **1,400 subscribers** to work. The fix was the customer, not the feature set. On hold now, and getting a redesign in 2027.
+
+**🛂 MIGRAGENT** | *Gemini, Google ADK, Cloud Run, Firestore, Python* | Aug to Oct 2026 | archived
 - An AI reporter on the immigration beat. Every morning it read the official immigration pages of 13 countries, worked out what changed, and filed it to the wire. Every claim had to be a sentence lifted from the government's own page, so it had nothing to make up.
 - By mid-October: **147 rule changes caught, 39 stories filed, 104 guides**, out of 1,355 official pages. Each story ended with a count of how many claims were found word for word and how many got cut.
-- Archived on 19 Oct with the model switched off. The whole thing is still in the repo.
+- Archived on 19 Oct with the model switched off.
 
 **🩺 [Solana Error Doctor](https://github.com/cnpierrepapi/solana-error-doctor)** | *TypeScript, Solana* | Jun 2026 | archived
 - Paste an opaque Solana error, get the root cause and a verified fix. A skill for coding agents, built for the Solana AI Kit. The kit's maintainers passed on it because the kit already covers that ground, so it's archived.
