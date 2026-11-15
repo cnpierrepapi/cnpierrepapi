@@ -1,10 +1,10 @@
-# Hi, I'm Chukwudumaga Nnawuogo 👋
+# Hi, I'm Emmanuel Nnawuogo 👋
 
 - 🏗️ Founder & Director, **Onenept Studios** (Delaware C-corp). I'm a design engineer: I build the part of an AI product people actually touch, and I keep at it until someone who's never seen it can use it without asking me anything.
 - 🎨 My training is in design thinking and human-computer interaction, not computer science. I write code with AI and always have. The model is the engine, my job is the dashboard: what goes on the screen, what stays off it, and how plain the words can get before they stop being true.
 - 🧭 If the job is a backend with no screen, or deep infrastructure, I'm not your guy. If it's an AI product real people have to understand, I am. Right now that's [AD FONTES](https://adfontes.fun), a blockchain game where you never see the blockchain. I build for clients as well.
 - 🤝 When something I build on turns out to be wrong, I send the fix back upstream. Four of those are merged so far.
-- 🎓 MSc IT Management with Data Analytics, GBS Malta (in progress) · MSc Innovation, Strategy & Entrepreneurship, Grenoble École de Management (Distinction) · BEng Electrical & Electronics Engineering, Covenant University
+- 🎓 MSc IT Management with Data Analytics, GBS Malta (in progress) · MSc Innovation, Strategy & Entrepreneurship, Grenoble École de Management (Distinction)
 - 🚀 Open to remote and contract work: Design Engineer, UX Engineer, AI Product Engineer
 
 ---
@@ -94,13 +94,14 @@ Every line links to the thing itself.
 
 ## 💻 Most used languages
 
-Measured across my own repos with the GitHub languages API, not estimated. Last counted 20 Oct 2026.
+Measured across every repo I own, public and private, with the GitHub languages API. Forks are left out, since that code is mostly other people's. Last counted 15 Nov 2026.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-56%25-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 56 percent"/>
-  <img src="https://img.shields.io/badge/Python-37%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 37 percent"/>
-  <img src="https://img.shields.io/badge/JavaScript-2%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript 2 percent"/>
-  <img src="https://img.shields.io/badge/HTML%2FCSS-2%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS 2 percent"/>
+  <img src="https://img.shields.io/badge/TypeScript-52%25-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 52 percent"/>
+  <img src="https://img.shields.io/badge/JavaScript-24%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript 24 percent"/>
+  <img src="https://img.shields.io/badge/Python-18%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 18 percent"/>
+  <img src="https://img.shields.io/badge/HTML%2FCSS-4%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML and CSS 4 percent"/>
+  <img src="https://img.shields.io/badge/Rust-2%25-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust 2 percent"/>
 </p>
 
 ---
@@ -112,32 +113,16 @@ Measured across my own repos with the GitHub languages API, not estimated. Last 
 - Under the hood it's all blockchain: DAOs, agent wallets, tokens, a contract that seals every turn. On screen there's none of that. You sign up with an email, a funded account gets made for you, and there's no wallet popup and no crypto words anywhere. You give "grace", not NEAR. I wanted it to feel like any web game you'd send a friend, and only the README knows it's on chain.
 - The world is a 3D map you click around in. Submitted to the NEAR hackathon on 12 Nov. Mainnet comes next.
 
-**👑 [Her Crown Garden](https://hercrowngarden.shop)** | *Next.js, TypeScript* | Aug 2026 | client work · **[Live](https://hercrowngarden.shop)**
-- A shop for a Nigerian ayurvedic hair care brand. Her customers find her on TikTok, on a phone, so I designed the phone version first and the desktop one after.
-- People with 4C hair shop by porosity before anything else, so the whole catalogue splits on that. Orders go straight to WhatsApp because that's how her buyers already buy. I mocked up three directions and she picked one.
-
-**📈 [Warmleads](https://warmleads.app)** | *Next.js, TypeScript, Supabase, Prisma, Stripe, Paystack* | 2026 | **[Live](https://warmleads.app)**
-- Scored leads for freelancers. You search for the kind of business you want to work for, and each one comes with a score and its biggest need.
-- To see a contact you press and hold a button, like confirming a payment in a crypto wallet. It replaced a credits system. Getting a redesign in 2027.
-
 **🗂️ [FUGITIVA](https://fugitiva.onenept.com)** | *SvelteKit, three.js* | Oct 2026 | **[Live](https://fugitiva.onenept.com)**
 - An online journal of case files on women behind the crimes people assume men commit. Bauhaus layout, masks generated in code, real police photos.
-
-**🦠 [OUTBRK](https://outbrk.fun)** | *Vite, three.js* | Nov 2026 | coming soon · **[Live](https://outbrk.fun)**
-- A coming-soon page with a virus in it, and a puzzle hidden in the virus.
 
 **⚡ [Melax](https://github.com/cnpierrepapi/melax)** | *TypeScript, Lightning, Cashu* | Nov 2026 | learning project, not deployed
 - A bitcoin wallet for the small phone you already have. Dial a short code and a menu opens, in Wolof, French or English. No app, no internet.
 - The demo page has two drawn feature phones calling the real server. Its setup guide only ticks a step when the server's own SMS proves that step happened, so clicking ahead doesn't count.
 - Built for the Dakar Bitcoin Hack, then I chose not to submit it. It runs on a local test network.
 
-**🪐 [SYZYGY](https://github.com/cnpierrepapi/syzygybot)** | *Next.js, TypeScript, Qloo* | Oct 2026 | offline
-- Ten agents that find a brand deal in Qloo's taste data, find the person who decides, and draft the pitch. Nothing sends until a person presses Approve.
-- Built for the Qloo hackathon. Taken offline in November, the code is still up.
-
-**🏷️ [LOWBALL](https://github.com/cnpierrepapi/lowball)** | *TypeScript, Anchor, Solana, x402* | Oct 2026 | offline
-- Haggle with an AI shopkeeper, then pay what you agreed in USDC on Solana. She does the talking but a plain engine sets the price, so you can't sweet-talk her down to zero.
-- Taken offline in November, the code is still up.
+**🪐 SYZYGY** | *Next.js, TypeScript* | Oct 2026 | offline
+- Ten agents that find a brand deal, find the person who decides, and draft the pitch. Nothing sends until a person presses Approve.
 
 **📞 [ASHEARD](https://github.com/cnpierrepapi/asheard)** | *TypeScript, Next.js* | Sep 2026 | offline · **[npm](https://www.npmjs.com/package/asheard)**
 - Tells you how a phone call really ended and which field said so. When no field says anything, it says that instead of guessing.
